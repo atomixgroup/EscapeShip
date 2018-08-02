@@ -1,0 +1,9 @@
+-keepattributes Signature
+-keepattributes *Annotation*
+-keepattributes EnclosingMethod
+-keep class sun.misc.Unsafe { *; }
+-keepclassmembers enum * { *; }
+-keep class **.R$* { *; }
+-keep interface ir.tapsell.sdk.NoProguard
+-keep class * implements ir.tapsell.sdk.NoProguard { *; }
+-keep interface * extends ir.tapsell.sdk.NoProguard { *; }
